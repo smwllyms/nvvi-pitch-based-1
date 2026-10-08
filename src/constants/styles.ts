@@ -1,0 +1,1 @@
+export const backgroundLinear = "linear-gradient(white, rgb(230,230,230))"

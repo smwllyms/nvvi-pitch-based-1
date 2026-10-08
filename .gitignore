@@ -1,0 +1,4 @@
+node_modules
+src/stages/*.html
+src/stages/*.js
+build

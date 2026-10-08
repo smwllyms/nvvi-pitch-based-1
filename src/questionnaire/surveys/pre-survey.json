@@ -1,0 +1,112 @@
+{
+  "title": "Pre-Survey Response",
+  "description": "Please answer the following questions. Results will be used to determine the best path for the mock study.",
+  "questions": [
+    {
+      "id": "sex",
+      "label": "What is your biological sex?",
+      "type": "LIST",
+      "options": [
+        "Male",
+        "Female",
+        "Prefer not to answer"
+      ],
+      "required": true
+    },
+    {
+      "id": "age",
+      "label": "Which age group do you belong in?",
+      "type": "LIST",
+      "options": [
+        "18-24",
+        "24-35",
+        "35-50",
+        "50-65",
+        "65+",
+        "Prefer not to answer"
+      ],
+      "required": true
+    },
+    {
+      "id": "disability",
+      "label": "Do you have a physical disability that impairs your ability to use a computer mouse?",
+      "type": "LIST",
+      "options": [
+        "Yes",
+        "No",
+        "Prefer not to answer"
+      ],
+      "required": true
+    },
+    {
+      "id": "voice-type",
+      "label": "In which of the following categories would you label the average pitch (frequency) of your speaking voice?",
+      "type": "LIST",
+      "options": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "required": true
+    },
+    {
+      "id": "mic-type",
+      "label": "Please choose the closest microphone type to the one you are currently using for this study.",
+      "type": "LIST",
+      "options": [
+        "Built-in laptop/PC microphone",
+        "Headset microphone",
+        "Stand-alone/studio microphone (including USB microphones)",
+        "Webcam microphone",
+        "Mobile device microphone (e.g. iPhone)",
+        "Other"
+      ],
+      "required": true
+    },
+    {
+      "id": "nvvi-background",
+      "label": "I have strong background knowledge in NVVI.",
+      "type": "LIKERT",
+      "required": true
+    },
+    {
+      "id": "music-background",
+      "label": "I have a strong musical background (e.g. playing melodic instruments, singing).",
+      "type": "LIKERT",
+      "required": true
+    },
+    {
+      "id": "music-background-extra",
+      "type": "TEXTAREA",
+      "label": "(Optional) Explain your musical background."
+    },
+    {
+      "id": "pitch-id-skills",
+      "label": "I have strong pitch identification ability (i.e. perfect pitch).",
+      "type": "LIKERT",
+      "required": true
+    },
+    {
+      "id": "humming-skills",
+      "label": "I am proficient at humming/singing (with an accurate, stable pitch).",
+      "type": "LIKERT",
+      "required": true
+    },
+    {
+      "id": "can-whistle",
+      "label": "Can you whistle?",
+      "type": "LIST",
+      "multiple": false,
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "required": true
+    },
+    {
+      "id": "whistle-skills",
+      "label": "(If you can whistle) I have strong whistling skills (with accurate, stable pitch).",
+      "type": "LIKERT"
+    }
+  ]
+}
