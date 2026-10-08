@@ -46,7 +46,7 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, BUILD_DIR),
     clean: true,
-    publicPath: "/",
+    publicPath: "auto",
     globalObject: "self"
   },
 };
